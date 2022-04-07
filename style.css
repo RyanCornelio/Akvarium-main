@@ -6,13 +6,41 @@
     font-style:italic;
     font-size: 26px;
     border:slategray;
-    width: 900px;
+    width: 100%;
     height: 400px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(94, 161, 249);
+    color: aliceblue;
 }
 
 .container-2{
     text-align: center;
     padding: 100px;
     font-style:italic;
-    font-size: 26px;
+    font-size: 14px;
+    background-color: rgb(94, 161, 249);
+    color: aliceblue;
+}
+
+.container-3 {
+    background-color: rgb(94, 161, 249);
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+
+    background-color: rgb(26, 130, 130);
+
 }
